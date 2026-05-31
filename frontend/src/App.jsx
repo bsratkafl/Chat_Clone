@@ -6,7 +6,7 @@ import MessageList from "./components/MessageList/MessageList";
 import ChatInput from "./components/ChatInput/ChatInput";
 import "./App.css";
 
-const API_BASE_URL = "http://localhost:3777/api";
+const API_BASE_URL = "https://chat-clone-gkrt.onrender.com/api";
 
 function App() {
   // conversations state holds the chat history, isLoading indicates if a response is being generated, and messagesEndRef is used to scroll to the bottom of the chat when new messages are added.
