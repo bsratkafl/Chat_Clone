@@ -9,12 +9,8 @@ import "dotenv/config";
 // create an instance of express
 const app = express();
 
-// use cors middleware to allow cross-origin requests from the frontend; http://localhost:5173
-app.use(
-  cors({
-    origin: "https://bisreai.bsratkaf.com/",
-  }),
-);
+// use cors middleware to allow cross-origin for frontend requests for all routes
+app.use(cors());
 
 // import the database connection pool
 import db from "./db/db.config.js";
