@@ -12,7 +12,7 @@ const app = express();
 // use cors middleware to allow cross-origin requests from the frontend; http://localhost:5173
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://bisreai.bsratkaf.com/",
   }),
 );
 
